@@ -1,0 +1,17 @@
+{
+  "name": "project_name",
+  "version": "0.0.0",
+  "description": "project_description",
+  "repository": "https://github.com/author_name/project_urlname/",
+  "homepage": "https://github.com/author_name/project_urlname/",
+  "author": "author_name",
+  "scripts": {
+    "test": "jest --config jest.config.ts",
+    "test:coverage": "yarn test --coverage=true",
+    "test:badges": "jest-coverage-badges"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}
